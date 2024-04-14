@@ -18,27 +18,18 @@ public int[] TwoSum(int[] nums, int target)
     return [];
 }
 
+// - - - - - 
 
-// - - - - - //
 
-// Runtime 89ms
-// Memory 48.15MB
+// Second solution
 
-public int[] TwoSum(int[] nums, int target)
+
+public static int[] TwoSum(int[] nums, int target)
 {
-    Dictionary<int, int> dicionario = new Dictionary<int, int>();
+    Dictionary map = new Dictionary<int, int>();
 
-    for (int i = 0; i < nums.Length; i++)
-    {
-        int complemento = target - nums[i];
-        if (dicionario.ContainsKey(complemento))
-        {
-            return new int[] { dicionario[complemento], i };
-        }
-        dicionario[nums[i]] = i;
-    }
-    return [];
+
+    for(int i = 0; i < nums.)
 }
-
 
 
