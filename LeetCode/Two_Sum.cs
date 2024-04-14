@@ -1,7 +1,7 @@
 // Runtime 144ms
 // Memory 47.33MB
 
-public static int[] TwoSum(int[] nums, int target)
+public int[] TwoSum(int[] nums, int target)
 {
     int n = nums.Length;
 
