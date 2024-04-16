@@ -1,3 +1,6 @@
+// Runtime 15 ms
+// Memory 27.4 MB 
+
 public int HammingWeight(int n)
 {
 
