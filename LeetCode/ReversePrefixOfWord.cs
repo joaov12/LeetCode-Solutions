@@ -1,7 +1,7 @@
 // Runtime 50 ms
 // Memory 41.62 MB
 
-public static string ReversePrefix(string word, char ch) // static for tests
+public string ReversePrefix(string word, char ch) 
 {
   // basicamente: encontrar primeira ocorrencia de ch e fazer o swap do inicio até o ch
   // isso ja foi feito no problema Reverse String, usar mesmo algoritmo, two pointers (dois ponteiros)
